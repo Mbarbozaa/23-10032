@@ -7,7 +7,6 @@ int main(){
 }
 
 double mean(vector<double> v){
-  return 0;
 }
 
 double variance(vector<double> v){
