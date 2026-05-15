@@ -1,5 +1,5 @@
 Modelo de IA: Claude(Anthropic - claude.ai)
-Ejercicios asistidos con IA: 4 y 5
+Ejercicios asistidos con IA: 3, 4 y 5
 Prompts utilizados: 
 Como calcular mean, variance y pearson_r en C++
 Como convertir numeros entre bases 7,8 y 16 en C++
