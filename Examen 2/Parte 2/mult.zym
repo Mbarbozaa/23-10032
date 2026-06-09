@@ -1,5 +1,10 @@
 ::zilly+
 
+// Inciso 2: La multiplicacion es conmutativa (x*y = y*x).
+// Optimizacion: si x < 0, negamos ambos argumentos para que
+// x quede positivo y la recursion siempre decremente hacia 0.
+// Asi mult(3)(-4) = multPos(-3)(4) = -12, sin recursion infinita.
+
 Z => Z => Z multPos := fn(Z y) -> fn(Z x) -> if(x = 0, 0, multPos(y)(sub(1)(x)) + y);
 
 Z => Z => Z mult := fn(Z y) -> fn(Z x) -> if(x < 0, multPos(sub(0)(y))(sub(0)(x)), multPos(y)(x));
