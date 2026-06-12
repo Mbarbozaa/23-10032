@@ -1,0 +1,17 @@
+​Registro de Consultas con IA - Examen 2
+​Este documento reporta las interacciones con la Inteligencia Artificial (Claude / Gemini) utilizadas como soporte técnico
+y aclaración de dudas para las dos partes del examen.
+
+​Parte 1: K-Means en C++
+
+​Prompt 1: "¿Cómo puedo estructurar un proyecto en C++ de forma modular separando la carga de un archivo CSV y el algoritmo de K-Means?"
+​Uso: Me ayudó a definir la arquitectura de archivos (cargador.cpp, kmeans.cpp, main.cpp) y a entender cómo pasar el vector de datos 
+por referencia para que sea inmutable.
+
+​Prompt 2: "¿Cuál es la fórmula de la distancia Euclídea en 3D y cómo se define matemáticamente la condición de parada de los centroides?"
+​Uso: Utilicé la explicación para escribir las funciones del bucle del algoritmo en kmeans.cpp.
+
+​Parte 2: Tarea con Zilly
+
+​Prompt 3: "¿Cómo puedo optimizar el flujo de la tarea pequeña asignada por Zilly y resolver los errores de sintaxis en el script?"
+​Uso: Me sirvió de guía para corregir la lógica rápidamente y asegurar que el formato de entrega de la segunda parte fuera el correcto.
