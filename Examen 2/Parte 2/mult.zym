@@ -5,14 +5,15 @@
 // x quede positivo y la recursion siempre decremente hacia 0.
 // Asi mult(3)(-4) = multPos(-3)(4) = -12, sin recursion infinita.
 
+
 Z => Z => Z multPos := fn(Z y) -> fn(Z x) -> if(x = 0, 0, multPos(y)(sub(1)(x)) + y);
 
-Z => Z => Z mult := fn(Z y) -> fn(Z x) -> if(x < 0, multPos(sub(0)(y))(sub(0)(x)), multPos(y)(x));
+Z => Z => Z mult := fn(Z y) -> fn(Z x) -> if(x < 0, multPos(sub(y)(0))(sub(x)(0)), multPos(y)(x));
 
 mult(3)(4)
 mult(4)(3)
 mult(0)(5)
 mult(5)(0)
 mult(-3)(4)
-mult(2)(3)
-mult(3)(2)
+mult(3)(-4)
+mult(-3)(-4)
