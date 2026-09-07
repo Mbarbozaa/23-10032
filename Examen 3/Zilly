@@ -4,6 +4,5 @@ Z => Z fibo := fn(Z n) -> if(n < 2, n, fibo(n - 1) + fibo(n - 2));
 Z => Z sfib := fn(Z n) -> if(n < 0, 0, fibo(n) + sfib(n - 1));
 Z => Z zfib := fn(Z n) -> fibo(n + 2) - 1;
 
-# Bono 1: Identidad sfib(n) = fibo(n + 2) - 1 implementada en zfib.
-
-# Bono 2: Si. sfib evalua fibo(i) recursivamente. En cambio, zfib solo invoca fibo(n + 2) una vez.
+# Bono 1: sfib(n) = fibo(n + 2) - 1
+# Bono 2: SI. zfib solo evalua fibo una vez y resta 1.
